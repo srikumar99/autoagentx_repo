@@ -7,11 +7,7 @@
 [![Python](https://img.shields.io/badge/python-3.10%2B-green)](https://www.python.org/)
 [![MegaTask-200](https://img.shields.io/badge/benchmark-MegaTask--200-orange)](https://github.com/autoagentx/megatask200)
 
-Official implementation of the paper:
 
-> **AutoAgent-X: A Hierarchical Goal-Decomposition Model for Autonomous Multi-Step Task Execution**  
-> Jordan R. Mitchell, Priya Subramaniam, Luca De Angelis, Yuki Tanaka, Fatima Al-Hassan  
-> *Springer Journal of Artificial Intelligence Research, 2025*
 
 ---
 
@@ -274,31 +270,6 @@ python experiments/run_scaling.py \
 pytest tests/ -v
 pytest tests/unit/ -v          # Unit tests only
 pytest tests/integration/ -v  # Integration tests (requires API keys)
-```
 
----
 
-## 📄 Citation
 
-```bibtex
-@article{mitchell2025autoagentx,
-  title     = {{AutoAgent-X}: A Hierarchical Goal-Decomposition Model
-               for Autonomous Multi-Step Task Execution},
-  author    = {Mitchell, Jordan R. and Subramaniam, Priya and
-               De Angelis, Luca and Tanaka, Yuki and Al-Hassan, Fatima},
-  journal   = {Springer Journal of Artificial Intelligence Research},
-  year      = {2025},
-  url       = {https://github.com/autoagentx/autoagentx}
-}
-```
-
----
-
-## 📜 License
-
-MIT License. See [LICENSE](LICENSE).
-
-## 🙏 Acknowledgements
-
-This work was supported by NSF Award IIS-2341872, MIT-IBM Watson AI Lab,
-and Stanford HAI. Compute provided by AWS Research Credits and RIKEN AI cluster.
